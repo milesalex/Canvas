@@ -14,6 +14,7 @@
 		3990B22E1C756D130011B853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3990B22C1C756D130011B853 /* LaunchScreen.storyboard */; };
 		3990B2391C756D140011B853 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990B2381C756D140011B853 /* CanvasTests.swift */; };
 		3990B2441C756D140011B853 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990B2431C756D140011B853 /* CanvasUITests.swift */; };
+		3990B2521C756D750011B853 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3990B2511C756D750011B853 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3990B23F1C756D140011B853 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3990B2431C756D140011B853 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		3990B2451C756D140011B853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3990B2511C756D750011B853 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3990B2231C756D130011B853 /* AppDelegate.swift */,
 				3990B2251C756D130011B853 /* ViewController.swift */,
 				3990B2271C756D130011B853 /* Main.storyboard */,
+				3990B2511C756D750011B853 /* CanvasViewController.swift */,
 				3990B22A1C756D130011B853 /* Assets.xcassets */,
 				3990B22C1C756D130011B853 /* LaunchScreen.storyboard */,
 				3990B22F1C756D130011B853 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3990B2261C756D130011B853 /* ViewController.swift in Sources */,
+				3990B2521C756D750011B853 /* CanvasViewController.swift in Sources */,
 				3990B2241C756D130011B853 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
